@@ -1,0 +1,150 @@
+.container{
+	min-width:1000px;
+	width:100%;
+	height:100%;
+}
+
+.head-container
+{	
+ position:static;
+ height:105px;
+ width:100%;
+ border-bottom:solid;
+ border-bottom-color:#E56717;
+ border-bottom-width:3px; 
+}
+img.logo
+{
+ position:static;
+ float:left;
+ margin-left:0px;	
+ margin-bottom:0px;
+ margin-right:10px;
+ margin-top:0px;
+ height:100px;
+ width:120px;
+}	
+ header.title
+{
+ position:static;
+ text-shadow: 1px 1px 2px black;
+ margin-left:130px;
+ margin-top:0px;
+ padding-top:27px;
+ /*margin-right:800px;*/
+ margin-bottom:0px;
+ text-align:left;
+ color:#347C17;
+ font-family:arial;
+ font-size:50px; 
+}
+div.body-container
+{
+ width:100%;
+ height:100%;
+ margin-top:5px;
+ border-top-style:solid;
+ border-top-color:#347C17;
+ border-top-width:3px;
+}
+form.login-form
+{
+	margin-left:40%;
+	margin-top:120px;
+	font-family:arial;
+	font-weight:bold;
+	position:relative;
+	max-width: 360px;
+	text-align: center;
+	border: 3px solid #f1f1f1;
+	box-shadow: 0 0 15px;
+	
+}	
+form.login-form a.forgot
+{
+	font-size:12px;
+	color:blue;
+}
+form.login-form input
+{
+	width: 70%;
+    padding: 14px 20px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#remember
+{
+	width: 10%;
+}
+form.login-form button
+{
+			 outline:0;
+             background-color:#347C17;
+             width:70%;
+			 height:40px;
+             border: 0;
+			 text-align:center;
+             padding-top:0.2%;
+             color:white;
+             font-size: 25px;
+             cursor: pointer;
+}
+form.login-form input:hover
+{
+	box-shadow:0 0 7px black;
+}
+form.login-form button:hover
+{
+	box-shadow:0 0  7px black;
+}
+form.login-form a#key
+{
+	text-decoration: none;
+}
+form.login-form a#key:hover
+{
+	color:#3333ff;
+}
+ul {
+	position:static;
+	min-width:960px;
+	margin-top:0px;
+	border-bottom-style:solid;
+    border-bottom-color:#347C17;
+    border-bottom-width:3px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#34282C;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-family:arial;
+	font-weight:bold;
+	font-size:15px;
+	letter-spacing:1px;
+	padding-left:25px;
+	padding-bottom:10px;
+	padding-right:25px;
+	padding-top:10px;
+    text-align: center;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+    background-color:#4C4646;
+	color:white;
+}
+.active {
+    background-color: #347C17;
+	color:white;
+}
